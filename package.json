@@ -1,0 +1,27 @@
+{
+  "name": "hit-react",
+  "version": "0.0.0",
+  "description": "\"HumanIT React Exercice\"",
+  "main": "index.js",
+  "repository": "git@github.com:DanielMor/hit-react.git",
+  "author": "danielmoreira92@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "run-prettier": "yarn prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "prettier": "^2.4.1"
+  }
+}
