@@ -98,7 +98,7 @@ const generateProduct = ({ productId } = {}) => {
               ]
             : []),
         ].sort(() => (Math.random() > 0.5 ? 1 : -1)),
-        recomendations: new Array(12)
+        recommendations: new Array(12)
           .fill(0)
           .map(() => parseInt(Math.random() * 1000000))
           .reduce((acc, productId) => {
