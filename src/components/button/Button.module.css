@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button.primary {
+    background-color: black;
+    color: white;
+}
+
+.button.button.primary:hover {
+    border-color: #777;
+    background-color: #777;
+}
+
+.button.secondary {
+    border-color: #d3d3d3;
+}
+
+.button.secondary:hover {
+    border-color: black;
+}

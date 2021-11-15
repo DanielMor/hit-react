@@ -1,0 +1,17 @@
+.container {
+    padding: 1rem 0;
+}
+
+.price {
+    display: flex;
+    color: #b90000;
+}
+
+.discount {
+    font-size: 0.8rem;
+}
+
+.discount > span:first-child {
+    text-decoration: line-through;
+    margin-right: 8px;
+}
